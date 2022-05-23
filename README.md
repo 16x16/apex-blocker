@@ -87,9 +87,10 @@ The list of server is planned to be updates regularly, and at the moment, not al
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-1. filter.py - filters Apex Legends servers by ping.  
+1. filter.py - filters Apex Legends servers by ping.
 `py -3 filter.py <latency threshold>`  
-For example, `py -3 filter.py 200` will write all servers with ping more than 200ms into "high_latency.txt"
+For example, `py -3 filter.py 200` will write all servers with ping more than 200ms into "high_latency.txt"  
+Please note, that running this script could take a few minutes to run, be patient and try not to stress the network too much while it's running.
 
 2. block.py - blocks outgoing connection to IPs in a specified file.  
 ⚠️Warning: before running block.py, you need to close Apex Legends, for some reason adding firewall rules doesn't work when Apex Legends is running, possibly because of the anticheat.  
