@@ -87,6 +87,8 @@ The list of server is planned to be updates regularly, and at the moment, not al
 <!-- USAGE EXAMPLES -->
 ## Usage
 
+⚠️ All script should be run in a cmd with administrator privileges 
+
 1. filter.py - filters Apex Legends servers by ping.
 `py -3 filter.py <latency threshold>`  
 For example, `py -3 filter.py 200` will write all servers with ping more than 200ms into "high_latency.txt"  
